@@ -1,0 +1,10 @@
+"AddonInfo"
+{
+    "name"              "JWebServer"
+    "version"           "Current Version"
+    "up_date"           "Date of update"
+    "author_name"       "James R Swift"
+    "author_email"      ""
+    "info"              "Hosting a webserver from gmod"
+    "override"          "0"
+}

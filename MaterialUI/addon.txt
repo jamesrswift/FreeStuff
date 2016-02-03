@@ -1,0 +1,10 @@
+"AddonInfo"
+{
+        "name"              "Material UI"
+        "version"           "1.00"
+        "up_date"           "07052015"
+        "author_name"       "James Rupert Swift"
+        "author_email"      "james.rt.swift@gmail.com"
+        "info"              "Some nice UI elements to gaze upon"
+        "override"          "0"
+}

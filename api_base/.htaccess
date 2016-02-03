@@ -1,0 +1,12 @@
+# rewrite stuff
+
+RewriteEngine on
+
+RewriteRule ^(\w+)/?$ index.php?$1
+RewriteRule ^(\w+)/(\w+)/([^/^\\]*+)/?$ index.php?$1&$2=$3
+RewriteRule ^(\w+)/(\w+)/([^/^\\]*+)/(\w+)/([^/^\\]*+)/?$ index.php?$1&$2=$3&$4=$5
+RewriteRule ^(\w+)/(\w+)/([^/^\\]*+)/(\w+)/([^/^\\]*+)/(\w+)/([^/^\\]*+)/?$ index.php?$1&$2=$3&$4=$5&$6=$7
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule .* index.php?failed [L]
